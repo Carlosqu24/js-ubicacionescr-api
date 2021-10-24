@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ubicaciones CR API</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
-    <h1>Selects Anidados</h1>
-    <h2>Costa Rica</h2>
 
-    <label for="select-primary">Provincias</label>
-    <select name="primary" id="select-primary">
-        <option value="">Elige una Provincia</option>
-    </select>
-    <br>
-    <br>
-    <label for="select-secondary">Cantones</label>
-    <select name="secondary" id="select-secondary">
-        <option value="">Elige un Cantón</option>
-    </select>
-    <br>
-    <br>
-    <label for="select-third">Distritos</label>
-    <select name="third" id="select-third">
-        <option value="">Elige un Distrito</option>
-    </select>
+<body>
+
+    <h1>Selects Anidados - Ubicaciones CR API</h1>
+
+    <div class="container">
+        <div class="group">
+            <label for="select-primary">Provincias</label>
+            <select name="primary" id="select-primary">
+                <option value="">Elige una Provincia</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div class="group">
+            <label for="select-secondary">Cantones</label>
+            <select name="secondary" id="select-secondary">
+                <option value="">Elige un Cantón</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div class="group">
+            <label for="select-third">Distritos</label>
+            <select name="third" id="select-third">
+                <option value="">Elige un Distrito</option>
+            </select>
+        </div>
+    </div>
 
 
     <script src="index.js"></script>
 </body>
+
 </html>

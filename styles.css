@@ -1,0 +1,49 @@
+:root {
+      --bg-color: rgb(29, 25, 80);
+}
+
+* {
+      font-family: Helvetica, sans-serif;
+}
+
+body {
+      background: var(--bg-color);
+      color: #fff;
+}
+
+.container {
+      width: 50%;
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+}
+
+.container * {
+      margin: 2px 0;
+}
+
+.group {
+      width: 350px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+label {
+      font-size: 25px;
+      font-weight: bold;
+}
+
+select {
+      width: 200px;
+      padding: 10px 12px;
+
+      font-weight: bold;
+      background: rgb(255, 255, 255);
+      border: none;
+      outline: none;
+}
+
